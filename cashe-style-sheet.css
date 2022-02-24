@@ -1,0 +1,143 @@
+#CASHe-logo
+{
+   text-align : left;  
+}
+img{
+    height : 30%;
+    width : 30%;
+}
+#CASHe
+{
+    float:right;
+}
+
+.CASHe-nav
+{
+    background-color : silver;
+    text-align : center;
+    text-decoration : none;
+    font-weight : bold;
+    font-family : tahoma;
+    font-size : 22px;
+    position : sticky;
+    top : 0;
+}
+
+.about-CASHe
+{
+    text-align : center;
+    font-size : 60px;
+    font-family : tahoma;
+    font-weight:bold;
+    color : rgb(255, 0, 242);
+}
+li
+{
+    text-align : left;
+    font-size : 20px;
+    font-family : tahoma;
+}
+
+table
+{
+    text-align : center;
+    border : 1px solid silver;
+}
+body
+{
+    font-size : 20px;
+    background-color : #FFFF99;
+    font-family : tahoma;
+}
+.bold
+{
+    font-weight : bold;
+}
+hr
+{
+    background-color:lime;
+    color : green;
+    height : 5px;
+}
+h1
+{
+    color :rgb(0, 183, 255);
+    font-size : 30px;
+}
+a:link
+{
+    color : black;
+}
+
+a:hover
+{
+    background-color:silver;
+    border-radius : 10px;
+    color : blue;
+}
+
+table
+{
+    border : none;
+}
+.center-table
+{
+    margin-left : auto;
+    margin-right : auto;
+}
+.cashe-team
+{
+    color : gray;
+    font-style : italic;
+    font-size : 15px;
+}
+
+/* start */
+.dropbtn 
+{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  /*  end */
+
+.three-horizontal-lines
+{
+    width : 25px;
+    height : 3px;
+    margin : 6px 0;
+    background-color : blue;
+    border-radius : 10px;
+}
+/*
+    about CASHe|about team|SLQ|responsible lending|instant personal loans|terms|
+    products|FAQs
+
+    instant personal loan - hover drop down list
+    products - hover drop down list
+*/
