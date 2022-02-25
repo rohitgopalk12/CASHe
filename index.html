@@ -22,11 +22,80 @@
             <a class="CASHe-nav" href="#SLQ">Social Loan Quotient</a>&nbsp;&nbsp;
             <a class="CASHe-nav"  href="#responsible-lending">Responsible Lending</a>&nbsp;&nbsp;
             <a class="CASHe-nav"  href="#videos">Videos</a>&nbsp;&nbsp;
-            <a class="CASHe-nav"  href="#products">Products</a>&nbsp;&nbsp;
+            <a class="dropdown-content" class="CASHe-nav"  href="#products">Products</a>
             <a class="CASHe-nav"  href="#faq">FAQs</a>&nbsp;&nbsp;
             <a class="CASHe-nav"  href="#documents">Documents</a>&nbsp;&nbsp;
+            <a class="CASHe-nav" href="#Sessions">Sessions</a>
+            
+                <div class="container" id='cashe-dropdown' onclick="casheButtonAnimation(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
     </div>
+                <!-- 
+                    I need to work on this code
 
+
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#home">Home</a>
+                      <a href="#about">About</a>
+                      <a href="#contact">Contact</a>
+                    </div>
+                  </div>
+                -->
+            <script>
+                function casheButtonAnimation(x) 
+                {
+                    x.classList.toggle("change");
+                }
+                
+                function myFunction() 
+                {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+
+                window.onclick = function(event) 
+                {
+                    if (!event.target.matches('.dropbtn')) 
+                    {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) 
+                        {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) 
+                            {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+            <!--
+                /*window.onclick = function(event) 
+                {
+                    if (!event.target.matches('.dropbtn')) 
+                    {
+                        var dropdowns = document.getElementsByClassName("dropdown-content");
+                        var i;
+                        for (i = 0; i < dropdowns.length; i++) 
+                        {
+                            var openDropdown = dropdowns[i];
+                            if (openDropdown.classList.contains('show')) 
+                            {
+                                openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+                */
+            -->
+            </script>
+    </div>
+    
      <!------ About CASHe -->
      <a id="about-cashe"></a>
     <h1 class="about-CASHe">
@@ -271,9 +340,9 @@
         <li>
             Make sure customer maintains timely repayments
         </li>
-
     </ul>
     <hr>
+
     <!-- Youtube Videos -->
     <a id="videos"></a>
     <h1 class="about-CASHe">Youtube Videos</h1> 
@@ -336,12 +405,52 @@
 
     <hr>
 
-    <!-- Sessions -->
+    <!-- Products -->
+    <a id="products"></a>
+
+
+
+    <!-- documents -->
     <a id="documents"></a>
-    <embed src="D:\CASHe static webpage\pdf-files\Techinasia.com-BNPL lights up Indias ecommerce sales this Diwali - 12112021.pdf" width="100%" height="500px" />
-    <embed src="D:\CASHe static webpage\pdf-files\CLSA_India_Fintech_Leaps_and_Bounds_Elements_In_Place_For_A_Multifold.pdf" width="100%" height="500px" />
-    <h1>All About Fintech Landscape in India</h1>
-    <embed src="D:/files of CASHe/FinTech Landscape.pdf" width="100%" height="500px" />
+    <h1 class="about-CASHe">
+        Documents
+    </h1>
+        
+    <table>
+        <tr>
+            <td>
+                <a target="_self" href="file:///D:/CASHe%20static%20webpage/pdf-files/Techinasia.com-BNPL%20lights%20up%20Indias%20ecommerce%20sales%20this%20Diwali%20-%2012112021.pdf" download="pdf-file.pdf">
+                    <img height=50px width="50px" class="pdf-docs" style="border-style : 5px" src="D:\CASHe static webpage\images\pdf-logo.png"></img>
+                </a>
+                <br />
+                <b>BNPL lights up India's e-commerce sales</b>
+            </td>
+            
+            <td>
+                <a target="_blank" href="D:\CASHe static webpage\pdf-files\CLSA_India_Fintech_Leaps_and_Bounds_Elements_In_Place_For_A_Multifold.pdf">
+                    <img height=50px width="50px" class="pdf-docs" style="border-style : 5px" src="D:\CASHe static webpage\images\pdf-logo.png"></img>
+                </a>
+               <br />
+               <b>CLSA India Fintech Leaps and Bounds</b>
+            </td>   
+
+            <td>
+            
+                <a target="_blank" href="D:\CASHe static webpage\pdf-files\FinTech Landscape.pdf">
+                    <img height=50px width="50px" class="pdf-docs" style="border-style : 5px" src="D:\CASHe static webpage\images\pdf-logo.png"></img>
+                </a>
+                <br />
+                <b>Fintech Landscape In India</b>  
+            </td>
+        </tr>      
+    </table>
+
+    
+    
+    
+
+    
+
     
     <!--
         /**  original file **\
